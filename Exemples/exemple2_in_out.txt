@@ -1,0 +1,792 @@
+Nom del fitxer de cataleg: cataleg2.mtp
+Fitxer cataleg2.mtp
+Benvingut a MTP: Music-To-Play.
+Entra les ordres que vulguis!
+MTP? escriure cataleg
+======================================================================
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #25 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #26 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #27 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #28 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #29 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #30 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #31 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #32 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #33 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #34 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #35 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #36 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 2 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 3 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ # 4 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ # 5 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ # 6 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ # 7 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 8 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 9 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #10 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #11 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ #12 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ #13 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #14 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ #15 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ #16 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #17 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #18 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 2 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 3 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 4 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 5 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 6 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 7 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 8 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 9 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+======================================================================
+MTP? buidar
+MTP? escriure recents
+======================================================================
+Cap coincidencia.
+======================================================================
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Angie
+Artista:          The Rolling Stones
+Any:              1973
+Durada            4' 26"
+Genere:           rock
+Estat d'anim:     relaxat
+N. reproduccions: 6
+FI CANCO]
+----------------------------------------------------------------------
+MTP? afegir
+Titol: Pa Amb Oli i Sal
+Artista: Blaumut
+Any: 2012
+Durada [' "]: 4 40
+Genere: folk
+Estat d'anim: alegre
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Pa Amb Oli i Sal
+Artista:          Blaumut
+Any:              2012
+Durada            4' 40"
+Genere:           folk
+Estat d'anim:     alegre
+N. reproduccions: 0
+FI CANCO]
+----------------------------------------------------------------------
+MTP? encuar
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 2 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 3 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 4 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 5 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 6 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 7 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 8 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 9 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #10 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+======================================================================
+MTP? repcua
+Reproduint...
+[ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 2 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 3 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 4 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 5 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 6 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 7 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 8 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 9 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+======================================================================
+MTP? repseleccio
+Reproduint...
+[ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+MTP? seleccionar titol You
+[ # 1 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 2 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ # 3 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ # 4 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ # 5 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ # 6 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+Seleccio [ 1..6 ]? 1
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Girl, You'll Be A Woman Soon
+Artista:          Neil Diamond
+Any:              1967
+Durada            3' 21"
+Genere:           pop
+Estat d'anim:     alegre
+N. reproduccions: 2
+FI CANCO]
+----------------------------------------------------------------------
+MTP? repseleccio
+Reproduint...
+[ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 2 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 3 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+======================================================================
+MTP? buidar
+MTP? escriure recents
+======================================================================
+Cap coincidencia.
+======================================================================
+MTP? afegir
+Titol: The Logical Song
+Artista: Supertram
+Any: 1979
+Durada [' "]: 3 38
+Genere: rock
+Estat d'anim: alegre
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            The Logical Song
+Artista:          Supertram
+Any:              1979
+Durada            3' 38"
+Genere:           rock
+Estat d'anim:     alegre
+N. reproduccions: 0
+FI CANCO]
+----------------------------------------------------------------------
+MTP? repcua
+Reproduint...
+[ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+MTP? repseleccio
+Reproduint...
+[ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+MTP? seleccionar totes
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ #25 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #26 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #27 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #28 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #29 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #30 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #31 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #32 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #33 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #34 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #35 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #36 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #37 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #38 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+Seleccio [ 1..38 ]? 34
+MTP? encuar
+MTP? repseleccio
+Reproduint...
+[ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+MTP? seleccionar artista ylan
+Seleccio automatica (un sol resultat).
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 2 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ # 3 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 2 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 3 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 4 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 5 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 6 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 7 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 8 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 9 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+======================================================================
+MTP? repcua
+Reproduint...
+[ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+MTP? repcua
+Reproduint...
+[ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+MTP? repcua
+Reproduint...
+[ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+MTP? repcua
+Reproduint...
+[ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+MTP? repseleccio
+Reproduint...
+[ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 2 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 3 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 4 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 5 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 6 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 7 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ # 8 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 2 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 3 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 4 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 5 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+======================================================================
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Blowing In The Wind
+Artista:          Bob Dylan
+Any:              1963
+Durada            2' 35"
+Genere:           folk
+Estat d'anim:     alegre
+N. reproduccions: 7
+FI CANCO]
+----------------------------------------------------------------------
+MTP? seleccionar titol Change
+Seleccio automatica (un sol resultat).
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Wind Of Change
+Artista:          Scorpions
+Any:              1991
+Durada            4' 42"
+Genere:           rock
+Estat d'anim:     trist
+N. reproduccions: 2
+FI CANCO]
+----------------------------------------------------------------------
+MTP? repcua
+Reproduint...
+[ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+MTP? repcua
+Reproduint...
+[ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 2 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 3 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 4 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 5 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 6 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 7 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 8 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 9 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #10 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 2 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 3 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+======================================================================
+MTP? afegir
+Titol: Sultans Of Swing
+Artista: Dire Straits
+Any: 1978
+Durada [' "]: 4 26
+Genere: rock
+Estat d'anim: energetic
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Sultans Of Swing
+Artista:          Dire Straits
+Any:              1978
+Durada            4' 26"
+Genere:           rock
+Estat d'anim:     energetic
+N. reproduccions: 0
+FI CANCO]
+----------------------------------------------------------------------
+MTP? seleccionar anim energetic
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 3 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 4 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ # 5 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ # 6 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ # 7 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ # 8 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ # 9 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #10 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+Seleccio [ 1..10 ]? 10
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Sultans Of Swing
+Artista:          Dire Straits
+Any:              1978
+Durada            4' 26"
+Genere:           rock
+Estat d'anim:     energetic
+N. reproduccions: 0
+FI CANCO]
+----------------------------------------------------------------------
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 2 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 3 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 4 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 5 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 6 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 7 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 8 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 9 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #10 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 2 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 3 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+======================================================================
+MTP? encuar
+MTP? encuar
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 2 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 3 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 4 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 5 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+======================================================================
+MTP? repcua
+Reproduint...
+[ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 2 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 3 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 4 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+======================================================================
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 2 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 3 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 4 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 5 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 6 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 7 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 8 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ # 9 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #10 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #11 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? seleccionar totes
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ #25 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #26 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #27 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #28 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #29 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #30 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #31 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #32 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ #33 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #34 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #35 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #36 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #37 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #38 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #39 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+Seleccio [ 1..39 ]? 25
+MTP? seleccio
+----------------------------------------------------------------------
+[CANCO
+Titol:            Parisienne Walkways
+Artista:          Gary Moore
+Any:              1990
+Durada            8' 59"
+Genere:           blues
+Estat d'anim:     alegre
+N. reproduccions: 32
+FI CANCO]
+----------------------------------------------------------------------
+MTP? repseleccio
+Reproduint...
+[ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+MTP? seleccionar anim trist
+[ # 1 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 2 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 3 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 4 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ # 5 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 6 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 7 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ # 8 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ # 9 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #10 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+Seleccio [ 1..10 ]? 5
+MTP? encuar
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 2 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 3 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 4 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 5 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+======================================================================
+MTP? repcua
+Reproduint...
+[ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 2 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 3 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 4 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+======================================================================
+MTP? escriure recents
+======================================================================
+[ # 1 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ # 2 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ # 3 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 4 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 5 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 6 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 7 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 8 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 9 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ #10 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+[ #11 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #12 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #13 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure genere
+======================================================================
+[ # 1 ] blues   [ Parisienne Walkways | Gary Moore ]
+[ # 2 ] blues   [ Purple Rain | Prince ]
+[ # 3 ] country [ Blue Bayou | Linda Ronstadt ]
+[ # 4 ] folk    [ Blowing In The Wind | Bob Dylan ]
+[ # 5 ] folk    [ Boig Per Tu | Sau ]
+[ # 6 ] folk    [ Pa Amb Oli i Sal | Blaumut ]
+[ # 7 ] folk    [ Que Tinguem Sort | Lluis Llach ]
+[ # 8 ] jazz    [ So What | Miles Davis ]
+[ # 9 ] pop     [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell ]
+[ #10 ] pop     [ Girl, You'll Be A Woman Soon | Neil Diamond ]
+[ #11 ] pop     [ Hey You | Madonna ]
+[ #12 ] pop     [ Hey You | Shakira ]
+[ #13 ] pop     [ I Want To Hold Your Hand | The Beatles ]
+[ #14 ] pop     [ I Will Survive | Gloria Gaynor ]
+[ #15 ] pop     [ Imagine | John Lennon ]
+[ #16 ] pop     [ My Way | Frank Sinatra ]
+[ #17 ] pop     [ Sacrifice | Elton John ]
+[ #18 ] pop     [ There Must Be An Angel | Eurythmics ]
+[ #19 ] pop     [ Yesterday | Connie Talbot ]
+[ #20 ] pop     [ Yesterday | The Beatles ]
+[ #21 ] rock    [ Angie | The Rolling Stones ]
+[ #22 ] rock    [ Another Brick In The Wall | Pink Floyd ]
+[ #23 ] rock    [ Back In Black | AC/DC ]
+[ #24 ] rock    [ Camins | Sopa de Cabra ]
+[ #25 ] rock    [ Hey You | Pink Floyd ]
+[ #26 ] rock    [ Hey You | Scorpions ]
+[ #27 ] rock    [ Hotel California | Eagles ]
+[ #28 ] rock    [ I Can't Get No - Satisfaction | The Rolling Stones ]
+[ #29 ] rock    [ Jailhouse Rock | Elvis Presley ]
+[ #30 ] rock    [ L'Empordà | Sopa de Cabra ]
+[ #31 ] rock    [ Message In A Bottle | The Police ]
+[ #32 ] rock    [ Money | Pink Floyd ]
+[ #33 ] rock    [ Smoke On The Water | Deep Purple ]
+[ #34 ] rock    [ Stairway To Heaven | Led Zeppelin ]
+[ #35 ] rock    [ Sultans Of Swing | Dire Straits ]
+[ #36 ] rock    [ The Logical Song | Supertram ]
+[ #37 ] rock    [ Time | Pink Floyd ]
+[ #38 ] rock    [ Walk On The Wild Side | Lou Reed ]
+[ #39 ] rock    [ Wind Of Change | Scorpions ]
+======================================================================
+MTP? escriure cataleg
+======================================================================
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ #25 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #26 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #27 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #28 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #29 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #30 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #31 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #32 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ #33 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #34 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #35 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #36 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #37 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #38 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #39 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? escriure top10
+======================================================================
+[ # 1 ] 39 [ Que Tinguem Sort | Lluis Llach ]
+[ # 2 ] 33 [ Parisienne Walkways | Gary Moore ]
+[ # 3 ] 31 [ Walk On The Wild Side | Lou Reed ]
+[ # 4 ] 21 [ Money | Pink Floyd ]
+[ # 5 ] 20 [ Blue Bayou | Linda Ronstadt ]
+[ # 6 ] 19 [ Yesterday | The Beatles ]
+[ # 7 ] 18 [ There Must Be An Angel | Eurythmics ]
+[ # 8 ] 16 [ Purple Rain | Prince ]
+[ # 9 ] 12 [ Another Brick In The Wall | Pink Floyd ]
+[ #10 ] 12 [ Message In A Bottle | The Police ]
+======================================================================
+MTP? seleccionar titol You
+[ # 1 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ # 2 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ # 3 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ # 4 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ # 5 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ # 6 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+Seleccio [ 1..6 ]? 3
+MTP? repseleccio
+Reproduint...
+[ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+MTP? seleccionar anim trist
+[ # 1 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 2 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 3 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ # 4 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ # 5 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 6 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ # 7 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ # 8 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ # 9 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #10 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+Seleccio [ 1..10 ]? 6
+MTP? encuar
+MTP? escriure pendents
+======================================================================
+[ # 1 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ # 2 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 3 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ # 4 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ # 5 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+======================================================================
+MTP? repseleccio
+Reproduint...
+[ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+MTP? escriure top10
+======================================================================
+[ # 1 ] 40 [ Que Tinguem Sort | Lluis Llach ]
+[ # 2 ] 33 [ Parisienne Walkways | Gary Moore ]
+[ # 3 ] 31 [ Walk On The Wild Side | Lou Reed ]
+[ # 4 ] 21 [ Money | Pink Floyd ]
+[ # 5 ] 20 [ Blue Bayou | Linda Ronstadt ]
+[ # 6 ] 19 [ Yesterday | The Beatles ]
+[ # 7 ] 18 [ There Must Be An Angel | Eurythmics ]
+[ # 8 ] 16 [ Purple Rain | Prince ]
+[ # 9 ] 12 [ Another Brick In The Wall | Pink Floyd ]
+[ #10 ] 12 [ Message In A Bottle | The Police ]
+======================================================================
+MTP? afegir
+Titol: Imagine
+Artista: John Lennon
+[Avis] Aquest tema ja es al cataleg.
+MTP? seleccionar totes
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ #25 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #26 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #27 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #28 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #29 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #30 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #31 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #32 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ #33 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #34 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #35 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #36 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #37 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #38 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #39 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+Seleccio [ 1..39 ]? 18
+MTP? repseleccio
+Reproduint...
+[ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+MTP? escriure cataleg
+======================================================================
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Pa Amb Oli i Sal | Blaumut | 2012 | 4' 40" | folk | alegre ]
+[ #25 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #26 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #27 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #28 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #29 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #30 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #31 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #32 ] [ Sultans Of Swing | Dire Straits | 1978 | 4' 26" | rock | energetic ]
+[ #33 ] [ The Logical Song | Supertram | 1979 | 3' 38" | rock | alegre ]
+[ #34 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #35 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #36 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #37 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #38 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #39 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? sortir
+Fins aviat!

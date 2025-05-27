@@ -1,0 +1,105 @@
+cataleg1.mtp
+escriure cataleg
+escriure recents
+escriure pendents
+seleccio
+afegir
+Pa Amb Oli i Sal
+Blaumut
+2012
+4 40
+folk
+alegre
+seleccio
+encuar
+escriure pendents
+seleccionar titol You
+2
+seleccio
+repseleccio
+escriure recents
+buidar
+escriure recents
+afegir
+The Logical Song
+Supertram
+1979
+3 38
+rock
+glad
+seleccio
+repcua
+repseleccio
+seleccionar totes
+34
+encuar
+repseleccio
+seleccionar artista ylan
+seleccio
+escriure recents
+escriure pendents
+repcua
+repcua
+repcua
+repcua
+repseleccio
+escriure recents
+escriure pendents
+seleccio
+seleccionar titol Change
+seleccio
+repcua
+repcua
+escriure recents
+escriure pendents
+afegir
+Sultans Of Swing
+Dire Straits
+1978
+4 26
+rock
+energetic
+seleccio
+seleccionar anim energetic
+10
+repseleccio
+seleccio
+escriure recents
+escriure pendents
+encuar
+encuar
+escriure pendents
+escriure pendents
+escriure recents
+repcua
+seleccionar totes
+25
+seleccio
+repseleccio
+seleccionar anim trist
+5
+encuar
+escriure pendents
+repcua
+escriure pendents
+escriure recents
+escriure genere
+escriure cataleg
+escriure top10
+afegir
+Imagine
+John Lennon
+seleccionar totes
+18
+repseleccio
+escriure cataleg
+escriure pendents
+repcua
+repcua
+repcua
+repcua
+escriure pendents
+encuar
+escriure pendents
+repcua
+sortir

@@ -1,0 +1,116 @@
+Nom del fitxer de cataleg: Fitxer cataleg0.mtp
+Benvingut a MTP: Music-To-Play.
+Entra les ordres que vulguis!
+MTP? ======================================================================
+[ # 1 ] [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell | 1967 | 2' 43" | pop | energetic ]
+[ # 2 ] [ Angie | The Rolling Stones | 1973 | 4' 26" | rock | relaxat ]
+[ # 3 ] [ Another Brick In The Wall | Pink Floyd | 1979 | 6' 0" | rock | energetic ]
+[ # 4 ] [ Back In Black | AC/DC | 1980 | 4' 14" | rock | energetic ]
+[ # 5 ] [ Blowing In The Wind | Bob Dylan | 1963 | 2' 35" | folk | alegre ]
+[ # 6 ] [ Blue Bayou | Linda Ronstadt | 1980 | 5' 8" | country | trist ]
+[ # 7 ] [ Boig Per Tu | Sau | 1990 | 4' 28" | folk | trist ]
+[ # 8 ] [ Camins | Sopa de Cabra | 2001 | 3' 17" | rock | alegre ]
+[ # 9 ] [ Girl, You'll Be A Woman Soon | Neil Diamond | 1967 | 3' 21" | pop | alegre ]
+[ #10 ] [ Hey You | Madonna | 2007 | 4' 33" | pop | alegre ]
+[ #11 ] [ Hey You | Pink Floyd | 1979 | 4' 30" | rock | alegre ]
+[ #12 ] [ Hey You | Scorpions | 1980 | 4' 29" | rock | energetic ]
+[ #13 ] [ Hey You | Shakira | 2005 | 4' 4" | pop | alegre ]
+[ #14 ] [ Hotel California | Eagles | 1977 | 6' 51" | rock | relaxat ]
+[ #15 ] [ I Can't Get No - Satisfaction | The Rolling Stones | 1965 | 3' 54" | rock | energetic ]
+[ #16 ] [ I Want To Hold Your Hand | The Beatles | 1963 | 2' 36" | pop | energetic ]
+[ #17 ] [ I Will Survive | Gloria Gaynor | 1978 | 3' 17" | pop | energetic ]
+[ #18 ] [ Imagine | John Lennon | 1971 | 3' 53" | pop | trist ]
+[ #19 ] [ Jailhouse Rock | Elvis Presley | 1957 | 3' 28" | rock | energetic ]
+[ #20 ] [ L'Empordà | Sopa de Cabra | 1989 | 3' 29" | rock | relaxat ]
+[ #21 ] [ Message In A Bottle | The Police | 1979 | 4' 20" | rock | relaxat ]
+[ #22 ] [ Money | Pink Floyd | 1973 | 4' 43" | rock | alegre ]
+[ #23 ] [ My Way | Frank Sinatra | 1969 | 4' 16" | pop | trist ]
+[ #24 ] [ Parisienne Walkways | Gary Moore | 1990 | 8' 59" | blues | alegre ]
+[ #25 ] [ Purple Rain | Prince | 1984 | 7' 57" | blues | trist ]
+[ #26 ] [ Que Tinguem Sort | Lluis Llach | 1977 | 3' 56" | folk | trist ]
+[ #27 ] [ Sacrifice | Elton John | 1989 | 4' 49" | pop | trist ]
+[ #28 ] [ Smoke On The Water | Deep Purple | 1973 | 6' 12" | rock | energetic ]
+[ #29 ] [ So What | Miles Davis | 1959 | 9' 6" | jazz | relaxat ]
+[ #30 ] [ Stairway To Heaven | Led Zeppelin | 1971 | 10' 39" | rock | relaxat ]
+[ #31 ] [ There Must Be An Angel | Eurythmics | 1985 | 4' 42" | pop | alegre ]
+[ #32 ] [ Time | Pink Floyd | 1974 | 6' 43" | rock | alegre ]
+[ #33 ] [ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+[ #34 ] [ Wind Of Change | Scorpions | 1991 | 4' 42" | rock | trist ]
+[ #35 ] [ Yesterday | Connie Talbot | 2019 | 2' 55" | pop | trist ]
+[ #36 ] [ Yesterday | The Beatles | 1965 | 2' 32" | pop | trist ]
+======================================================================
+MTP? ======================================================================
+[ # 1 ] blues   [ Parisienne Walkways | Gary Moore ]
+[ # 2 ] blues   [ Purple Rain | Prince ]
+[ # 3 ] country [ Blue Bayou | Linda Ronstadt ]
+[ # 4 ] folk    [ Blowing In The Wind | Bob Dylan ]
+[ # 5 ] folk    [ Boig Per Tu | Sau ]
+[ # 6 ] folk    [ Que Tinguem Sort | Lluis Llach ]
+[ # 7 ] jazz    [ So What | Miles Davis ]
+[ # 8 ] pop     [ Ain't No Mountain High Enough | Marvin Gaye & Tammi Terrell ]
+[ # 9 ] pop     [ Girl, You'll Be A Woman Soon | Neil Diamond ]
+[ #10 ] pop     [ Hey You | Madonna ]
+[ #11 ] pop     [ Hey You | Shakira ]
+[ #12 ] pop     [ I Want To Hold Your Hand | The Beatles ]
+[ #13 ] pop     [ I Will Survive | Gloria Gaynor ]
+[ #14 ] pop     [ Imagine | John Lennon ]
+[ #15 ] pop     [ My Way | Frank Sinatra ]
+[ #16 ] pop     [ Sacrifice | Elton John ]
+[ #17 ] pop     [ There Must Be An Angel | Eurythmics ]
+[ #18 ] pop     [ Yesterday | Connie Talbot ]
+[ #19 ] pop     [ Yesterday | The Beatles ]
+[ #20 ] rock    [ Angie | The Rolling Stones ]
+[ #21 ] rock    [ Another Brick In The Wall | Pink Floyd ]
+[ #22 ] rock    [ Back In Black | AC/DC ]
+[ #23 ] rock    [ Camins | Sopa de Cabra ]
+[ #24 ] rock    [ Hey You | Pink Floyd ]
+[ #25 ] rock    [ Hey You | Scorpions ]
+[ #26 ] rock    [ Hotel California | Eagles ]
+[ #27 ] rock    [ I Can't Get No - Satisfaction | The Rolling Stones ]
+[ #28 ] rock    [ Jailhouse Rock | Elvis Presley ]
+[ #29 ] rock    [ L'Empordà | Sopa de Cabra ]
+[ #30 ] rock    [ Message In A Bottle | The Police ]
+[ #31 ] rock    [ Money | Pink Floyd ]
+[ #32 ] rock    [ Smoke On The Water | Deep Purple ]
+[ #33 ] rock    [ Stairway To Heaven | Led Zeppelin ]
+[ #34 ] rock    [ Time | Pink Floyd ]
+[ #35 ] rock    [ Walk On The Wild Side | Lou Reed ]
+[ #36 ] rock    [ Wind Of Change | Scorpions ]
+======================================================================
+MTP? ======================================================================
+Cap coincidencia.
+======================================================================
+MTP? ======================================================================
+Cap coincidencia.
+======================================================================
+MTP? ======================================================================
+[ # 1 ] 38 [ Que Tinguem Sort | Lluis Llach ]
+[ # 2 ] 32 [ Parisienne Walkways | Gary Moore ]
+[ # 3 ] 31 [ Walk On The Wild Side | Lou Reed ]
+[ # 4 ] 21 [ Money | Pink Floyd ]
+[ # 5 ] 20 [ Blue Bayou | Linda Ronstadt ]
+[ # 6 ] 18 [ There Must Be An Angel | Eurythmics ]
+[ # 7 ] 17 [ Yesterday | The Beatles ]
+[ # 8 ] 15 [ Purple Rain | Prince ]
+[ # 9 ] 12 [ Another Brick In The Wall | Pink Floyd ]
+[ #10 ] 12 [ Message In A Bottle | The Police ]
+======================================================================
+MTP? ----------------------------------------------------------------------
+[CANCO
+Titol:            Walk On The Wild Side
+Artista:          Lou Reed
+Any:              1972
+Durada            4' 14"
+Genere:           rock
+Estat d'anim:     relaxat
+N. reproduccions: 31
+FI CANCO]
+----------------------------------------------------------------------
+MTP? [Avis] Ordre desconeguda: ordre1
+MTP? [Avis] Ordre desconeguda: ordre2
+MTP? [Avis] Ordre desconeguda: ordre3
+MTP? [Avis] Subordre desconeguda: ordre4
+MTP? Reproduint...
+[ Walk On The Wild Side | Lou Reed | 1972 | 4' 14" | rock | relaxat ]
+MTP? [Avis] Res a reproduir.
+MTP? Fins aviat!
