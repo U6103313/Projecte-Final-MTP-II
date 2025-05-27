@@ -92,7 +92,7 @@ void menu(Gestor &gest)
     else if (funcion == "repcua")
     {
     }
-    else if (funcion == "")
+    else if (funcion == "prueva")
     {
     }
     else if (funcion == "")

@@ -3,11 +3,22 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Cristian/Desktop/Projecte Final/Projecte-Final",
-      "program": "/Users/Cristian/Desktop/Projecte Final/Projecte-Final/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte Final",
+      "program": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte Final/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     },
     {
       "name": "C/C++: gcc Compilar y depurar el archivo activo",
