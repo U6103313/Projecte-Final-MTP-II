@@ -67,39 +67,70 @@ void menu(Gestor &gest)
 // Pre: El fitxer esta llegit i la pila, cua i taula estan omplertes
 // Post:
 {
-    cout << "MTP? " << endl;
-    string funcion;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    getline(cin, funcion);
-    if (funcion == "afegir")
+    string funcion = "XXX";
+    while (funcion != "sortir")
     {
-    }
-    else if (funcion == "encuar")
-    {
-    }
-    else if (funcion == "buidar")
-    {
-    }
-    else if (funcion == "seleccio")
-    {
-    }
-    else if (funcion == "buidar")
-    {
-    }
-    else if (funcion == "repseleccio")
-    {
-    }
-    else if (funcion == "repcua")
-    {
-    }
-    else if (funcion == "prueva")
-    {
-    }
-    else if (funcion == "")
-    {
-    }
-    else if (funcion == "sortir")
-    {
+        cout << "MTP? " << endl;
+        cin >> funcion;
+        if (funcion == "afegir")
+        {
+        }
+        else if (funcion == "encuar")
+        {
+        }
+        else if (funcion == "buidar")
+        {
+        }
+        else if (funcion == "seleccio")
+        {
+        }
+        else if (funcion == "buidar")
+        {
+        }
+        else if (funcion == "repseleccio")
+        {
+        }
+        else if (funcion == "repcua")
+        {
+        }
+        else if (funcion == "seleccionar ")
+        {
+            cin >> funcion;
+            if (funcion == "totes")
+            {
+            }
+            else if (funcion == "artista")
+            {
+                cin >> funcion;
+            }
+            else if (funcion == "anim")
+            {
+                cin >> funcion;
+            }
+            else if (funcion == "titol")
+            {
+                cin >> funcion;
+            }
+        }
+        else if (funcion == "escriure")
+        {
+            cin >> funcion;
+            if (funcion == "cataleg")
+            {
+            }
+            else if (funcion == "genere")
+            {
+            }
+            else if (funcion == "pendents")
+            {
+            }
+            else if (funcion == "recents")
+            {
+            }
+            else if (funcion == "top10")
+            {
+            }
+        }
     }
 }
 
