@@ -12,14 +12,14 @@ void Gestor::add_song_to_array(Song s)
     this->table.add(s);
 }
 
-void Gestor::add_song_to_queue(int uid)
+void Gestor::add_song_to_queue(int code_song)
 {
-    this->pending.inqueue(uid);
+    this->pending.inqueue(code_song);
 }
 
-void Gestor::add_song_to_stack(int uid)
+void Gestor::add_song_to_stack(int code_song)
 {
-    this->recent.tostak(uid);
+    this->recent.tostak(code_song);
 }
 
 Gestor::~Gestor()

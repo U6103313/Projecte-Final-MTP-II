@@ -18,7 +18,7 @@ public:
     // CONSULTORS -------------------------------------------------
     bool empty() const;
     // Pre: -- ; Post: retorna cert si la pila es buida; fals en c.c.
-    string top() const;
+    int top() const;
     // Pre: pila no buida; Post: retorna el valor del cim de la pila
     
     // MODIFICADORS -----------------------------------------------
@@ -35,7 +35,7 @@ public:
 
 private:
     struct Node {
-        string value;
+        int value;
         Node* next;
     };
     

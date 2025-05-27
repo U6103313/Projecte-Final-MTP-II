@@ -20,7 +20,7 @@ bool Stack::empty() const{
     return a_top==NULL;
 }
 
-string Stack::top() const{
+int Stack::top() const{
     return a_top->value;
 }
 
