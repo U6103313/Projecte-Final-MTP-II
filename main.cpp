@@ -50,17 +50,23 @@ void reed_file(Gestor &gest)
             f_in >> rep;
             Song s(uid, year, duration, rep, title, artist, gender, mood);
             gest.add_song_to_array(s);
-            if (i < actual_song)
+           /* if (i < actual_song)
             {
                 gest.add_song_to_stack(uid);
             }
             else if (i > actual_song)
             {
                 gest.add_song_to_queue(uid);
-            }
+            }*/
+           //La pila i la cola esta mal implementado, las canciones estan al final de el archivo .mtp
         }
         f_in.close();
     }
+}
+
+void add_new_song(Gestor &gest)
+{
+
 }
 
 void menu(Gestor &gest)
@@ -74,6 +80,7 @@ void menu(Gestor &gest)
         cin >> funcion;
         if (funcion == "afegir")
         {
+            add_new_song(gest);
         }
         else if (funcion == "encuar")
         {
@@ -141,5 +148,6 @@ int main()
     cout << "Benvingut a MTP: Music-To-Play." << endl
          << "Entra les ordres que vulguis!" << endl;
     menu(gest);
+    cout << "Fins aviat!";
     return 0;
 }
