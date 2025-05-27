@@ -71,7 +71,36 @@ void menu(Gestor &gest)
     string funcion;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(cin, funcion);
-// NO SE PUEDE HACER UN SWITCH CASE POR SER DE TIPO STRING
+    if (funcion == "afegir")
+    {
+    }
+    else if (funcion == "encuar")
+    {
+    }
+    else if (funcion == "buidar")
+    {
+    }
+    else if (funcion == "seleccio")
+    {
+    }
+    else if (funcion == "buidar")
+    {
+    }
+    else if (funcion == "repseleccio")
+    {
+    }
+    else if (funcion == "repcua")
+    {
+    }
+    else if (funcion == "")
+    {
+    }
+    else if (funcion == "")
+    {
+    }
+    else if (funcion == "sortir")
+    {
+    }
 }
 
 int main()
@@ -81,4 +110,5 @@ int main()
     cout << "Benvingut a MTP: Music-To-Play." << endl
          << "Entra les ordres que vulguis!" << endl;
     menu(gest);
+    return 0;
 }

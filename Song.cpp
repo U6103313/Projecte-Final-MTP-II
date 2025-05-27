@@ -14,6 +14,11 @@ Song::Song()
     this->mood = "XXX";
 }
 
+Song::~Song()
+{
+    // Empty destructor - no dynamic memory to clean up
+}
+
 Song::Song(int c_uid, int c_year, int c_duration, int c_reproductions, string c_title, string c_artist, string c_gender, string c_mood)
 {
     this->duration = c_duration;
