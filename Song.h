@@ -9,8 +9,10 @@ public:
     Song();
     Song(int uid, int year, int duration, int reproductions, string title, string artist, string gendre, string mood);
     ~Song();
+    void print() const;
 
 private:
+    string transfom_second(int time) const;
     int uid, year, duration, reproductions;
     string title, artist, gender, mood;
 };

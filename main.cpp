@@ -25,6 +25,7 @@ void reed_file(Gestor &gest)
     else
     {
         gest.set_name(name_file);
+        cout << "Fitxer " << name_file << endl;
         string a;
         f_in >> a;
         int actual_song;
@@ -50,15 +51,26 @@ void reed_file(Gestor &gest)
             f_in >> rep;
             Song s(uid, year, duration, rep, title, artist, gender, mood);
             gest.add_song_to_array(s);
-           /* if (i < actual_song)
-            {
-                gest.add_song_to_stack(uid);
-            }
-            else if (i > actual_song)
-            {
-                gest.add_song_to_queue(uid);
-            }*/
-           //La pila i la cola esta mal implementado, las canciones estan al final de el archivo .mtp
+        }
+        f_in >> a;
+        int n_recent;
+        f_in >> n_recent;
+        for (int i = 0; i < n_recent; i++)
+        {
+            int uid;
+            f_in >> uid;
+            uid--;
+            gest.add_song_to_stack(uid);
+        }
+        f_in >> a;
+        int n_pending;
+        f_in >> n_pending;
+        for (int i = 0; i < n_pending; i++)
+        {
+            int uid;
+            f_in >> uid;
+            uid--;
+            gest.add_song_to_queue(uid);
         }
         f_in.close();
     }
@@ -66,7 +78,16 @@ void reed_file(Gestor &gest)
 
 void add_new_song(Gestor &gest)
 {
+}
 
+void write_catalog(const Gestor &gest)
+{
+    for (int i = 0; i < gest.table_size(); i++)
+    {
+        cout << "[ # " << i + 1 << " ] ";
+        gest[i].print();
+        cout << endl;
+    }
 }
 
 void menu(Gestor &gest)
@@ -124,6 +145,7 @@ void menu(Gestor &gest)
             cin >> funcion;
             if (funcion == "cataleg")
             {
+                write_catalog(gest);
             }
             else if (funcion == "genere")
             {
@@ -139,6 +161,7 @@ void menu(Gestor &gest)
             }
         }
     }
+    cout << EQUAL_LINE << endl;
 }
 
 int main()

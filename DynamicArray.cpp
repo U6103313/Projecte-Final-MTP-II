@@ -95,6 +95,11 @@ Song &DynamicArray::operator[](int idx)
     return taula[idx];
 }
 
+const Song &DynamicArray::operator[](int idx) const
+{
+    return taula[idx];
+}
+
 DynamicArray &DynamicArray::operator=(const DynamicArray &t)
 {
     if (this != &t)

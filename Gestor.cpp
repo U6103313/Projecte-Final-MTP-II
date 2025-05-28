@@ -36,3 +36,18 @@ void Gestor::set_actual_song(int actual)
 {
     this->uid = actual;
 }
+
+Song &Gestor::operator[](int idx)
+{
+    return this->table[idx];
+}
+
+const Song &Gestor::operator[](int idx) const
+{
+    return this->table[idx];
+}
+
+int Gestor::table_size() const
+{
+    return this->table.size();
+}

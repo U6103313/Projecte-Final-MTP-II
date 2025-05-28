@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte Final",
-      "program": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte Final/build/Debug/outDebug",
+      "cwd": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte-Final",
+      "program": "c:/Users/cfc29/OneDrive/Escritorio/UDG/MTP II/Projecte-Final/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -19,19 +19,6 @@
           "ignoreFailures": true
         }
       ]
-    },
-    {
-      "name": "C/C++: gcc Compilar y depurar el archivo activo",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "lldb",
-      "preLaunchTask": "C/C++: gcc compilar archivo activo"
     }
   ]
 }

@@ -14,6 +14,9 @@ public:
     void add_song_to_stack(int uid);
     void set_name(string name);
     void set_actual_song(int actual);
+    Song &operator[](int idx);
+    const Song &operator[](int idx) const;
+    int table_size() const;
 
 private:
     string name;
