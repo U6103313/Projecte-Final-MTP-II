@@ -5,6 +5,7 @@
 #include <fstream>
 #include <limits>
 #include "Gestor.h"
+#include "PointerArray.h"
 using namespace std;
 
 const string STICK_LINE = string(70, '-');
@@ -76,16 +77,18 @@ void reed_file(Gestor &gest)
     }
 }
 
-void add_new_song(Gestor &gest)
+/*void add_new_song(Gestor &gest)
 {
-}
+}*/
 
 void write_catalog(const Gestor &gest)
 {
+    PointerArray pointer_array(gest);
+    pointer_array.quick_sort("title");
     for (int i = 0; i < gest.table_size(); i++)
     {
         cout << "[ # " << i + 1 << " ] ";
-        gest[i].print();
+        pointer_array[i].print();
         cout << endl;
     }
 }
@@ -101,7 +104,7 @@ void menu(Gestor &gest)
         cin >> funcion;
         if (funcion == "afegir")
         {
-            add_new_song(gest);
+           /*add_new_song(gest);*/
         }
         else if (funcion == "encuar")
         {

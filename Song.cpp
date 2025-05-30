@@ -44,3 +44,30 @@ string Song::transfom_second(int time) const
     string sec_str = to_string(sec);
     return min_str + "' " + sec_str + "''";
 }
+
+bool Song::is_minor(const Song s, string criteria) const
+{
+    if (criteria == "title")
+    {
+        if (this->title < s.get_title())
+        {
+            return true;
+        }
+        else if (this->title == s.get_title())
+        {
+            return this->artist < s.get_artist();
+        }
+        return false;
+    }
+    // For any other criteria, return false as a default case
+    return false;
+}
+
+string Song::get_title() const
+{
+    return this->title;
+}
+string Song::get_artist() const
+{
+    return this->artist;
+}

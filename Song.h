@@ -10,6 +10,9 @@ public:
     Song(int uid, int year, int duration, int reproductions, string title, string artist, string gendre, string mood);
     ~Song();
     void print() const;
+    bool is_minor (const Song s, string criteria = "title") const;
+    string get_title() const;
+    string get_artist() const;
 
 private:
     string transfom_second(int time) const;
