@@ -15,6 +15,7 @@ public:
     string get_title() const;
     string get_artist() const;
     string get_gender() const;
+    int get_uid() const;
 
 private:
     string transfom_second(int time) const;

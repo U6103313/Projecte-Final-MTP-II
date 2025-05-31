@@ -39,18 +39,21 @@ void Song::print(string tipe) const
     }
     else if (tipe == "gender")
     {
-        cout << this->gender << setw(5) << "[ " << this->title << " | " << this->artist << " ]";
+        cout <<left<<setw(9)<< this->gender << "[ " << this->title << " | " << this->artist << " ]";
     }
     else if (tipe == "selection")
     {
-        cout << left << setw(18) << "Titol:"<< this->title << endl;
-        cout << left << setw(18) << "Artista:"<< this->artist << endl;
-        cout << left << setw(18) << "Any:"<< this->year << endl;
-        cout << left << setw(18) << "Durada:"<<this->transfom_second(this->duration) << endl;
-        cout << left << setw(18) << "Genere:"<<this->gender << endl;
-        cout << left << setw(18) << "Estat d'anim:"<<this->mood << endl;
-        cout << left << setw(18) << "N. reproduccions:"<<this->reproductions;
-        
+        cout << left << setw(18) << "Titol:" << this->title << endl;
+        cout << left << setw(18) << "Artista:" << this->artist << endl;
+        cout << left << setw(18) << "Any:" << this->year << endl;
+        cout << left << setw(18) << "Durada:" << this->transfom_second(this->duration) << endl;
+        cout << left << setw(18) << "Genere:" << this->gender << endl;
+        cout << left << setw(18) << "Estat d'anim:" << this->mood << endl;
+        cout << left << setw(18) << "N. reproduccions:" << this->reproductions;
+    }
+    else if (tipe == "reproductions")
+    {
+        cout<<this->reproductions<<" [ "<<this->title<<" | "<<this->artist<<" ]";
     }
 }
 
@@ -92,6 +95,21 @@ bool Song::is_minor(const Song s, string criteria) const
             return false;
         }
     }
+    else if (criteria == "reproductions")
+    {
+        if (this->reproductions > s.reproductions)
+        {
+            return true;
+        }
+        else if (this->reproductions == s.reproductions)
+        {
+            return is_minor(s, "title");
+        }
+        else
+        {
+            return false;
+        }
+    }
     return false;
 }
 
@@ -106,4 +124,9 @@ string Song::get_artist() const
 string Song::get_gender() const
 {
     return this->gender;
+}
+
+int Song::get_uid() const
+{
+    return this->uid;
 }

@@ -56,3 +56,22 @@ int Gestor::get_selected() const
 {
     return this->selected;
 }
+
+void Gestor::delete_recent()
+{
+    while (!this->recent.empty())
+    {
+        this->recent.unstak();
+    }
+}
+Queue Gestor::copy_queue() const
+{
+    Queue copy = this->pending;
+    return copy;
+}
+
+Stack Gestor::copy_recent() const
+{
+    Stack copy = this->recent;
+    return copy;
+}

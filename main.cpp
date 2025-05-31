@@ -80,26 +80,26 @@ void reed_file(Gestor &gest)
 
 void add_new_song(Gestor &gest)
 {
-    cout<<"[CANCO"<<endl;
+    cout << "[CANCO" << endl;
     int duration, year, rep;
     string gender, mood, title, artist;
-    cout<<left<<setw(18)<<"Titol:";
+    cout << left << setw(18) << "Titol:";
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    getline(cin,title);
-    cout<<left<<setw(18)<<"Artista:";
+    getline(cin, title);
+    cout << left << setw(18) << "Artista:";
     getline(cin, artist);
-    cout<<left<<setw(18)<<"Any:";
+    cout << left << setw(18) << "Any:";
     cin >> year;
-    cout<<left<<setw(18)<<"Durada:";
+    cout << left << setw(18) << "Durada:";
     cin >> duration;
-    cout<<left<<setw(18)<<"Genere:"; 
-    cin>>gender;
-    cout<<left<<setw(18)<<"Estat d'anim:";
-    cin>>mood;
-    cout<<left<<setw(18)<<"N. reproduccions:";
-    cin>>rep;
-    cout<<"FI CANCO]"<<endl;
-    Song s(gest.table_size(), year, duration, rep, title, artist,gender,mood);
+    cout << left << setw(18) << "Genere:";
+    cin >> gender;
+    cout << left << setw(18) << "Estat d'anim:";
+    cin >> mood;
+    cout << left << setw(18) << "N. reproduccions:";
+    cin >> rep;
+    cout << "FI CANCO]" << endl;
+    Song s(gest.table_size(), year, duration, rep, title, artist, gender, mood);
     gest.add_song_to_array(s);
 }
 
@@ -127,13 +127,50 @@ void write_gender(const Gestor &gest)
     }
 }
 
-void escriure(const Gestor &gest)
+void write_top10(const Gestor &gest)
 {
-    PointerArray p(gest);
-    for (int i = 0; i < gest.table_size(); i++)
+    PointerArray pointer_array(gest);
+    pointer_array.order("reproductions");
+    for (int i = 0; i < 10; i++)
     {
-        p[i].print("title");
+        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        pointer_array[i].print("reproductions");
         cout << endl;
+    }
+}
+
+void write_reproduccion(const int &uid, const Gestor &gest)
+{
+    cout << "Reproduint..." << endl;
+    gest[uid].print("title");
+    cout << endl;
+}
+
+void write_pending(const Gestor &gest)
+{
+    Queue pending = gest.copy_queue();
+    int i = 1;
+    while (!pending.empty())
+    {
+        cout << "[ #" << setw(2) << i << " ] ";
+        gest[pending.first()].print("title");
+        cout << endl;
+        pending.outqueue();
+        i++;
+    }
+}
+
+void write_recents(const Gestor &gest)
+{
+    Stack recent = gest.copy_recent();
+    int i = 1;
+    while (!recent.empty())
+    {
+        cout << "[ #" << setw(2) << i << " ] ";
+        gest[recent.top()].print("title");
+        cout << endl;
+        recent.unstak();
+        i++;
     }
 }
 
@@ -156,21 +193,22 @@ void menu(Gestor &gest)
         }
         else if (funcion == "buidar")
         {
+            gest.delete_recent();
         }
         else if (funcion == "seleccio")
         {
-            cout<<"[CANCO"<<endl;
+            cout << "[CANCO" << endl;
             gest[gest.get_selected()].print("selection");
-            cout<<endl<<"FI CANCO]"<<endl;
-        }
-        else if (funcion == "buidar")
-        {
+            cout << endl
+                 << "FI CANCO]" << endl;
         }
         else if (funcion == "repseleccio")
         {
+            write_reproduccion(gest.get_selected(), gest);
         }
         else if (funcion == "repcua")
         {
+            write_reproduccion(gest.copy_queue().first(), gest);
         }
         else if (funcion == "seleccionar ")
         {
@@ -204,12 +242,15 @@ void menu(Gestor &gest)
             }
             else if (funcion == "pendents")
             {
+                write_pending(gest);
             }
             else if (funcion == "recents")
             {
+                write_recents(gest);
             }
             else if (funcion == "top10")
             {
+                write_top10(gest);
             }
         }
         else if (funcion == "sortir")

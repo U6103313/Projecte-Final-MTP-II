@@ -35,6 +35,14 @@ public:
     // Post:
     int get_selected() const;
 
+    void delete_recent();
+    // Pre: 
+    // Post:
+
+    Queue copy_queue() const;
+
+    Stack copy_recent() const;
+
 private:
     string name;
     int selected;
