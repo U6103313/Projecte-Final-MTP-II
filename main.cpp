@@ -2,6 +2,7 @@
 // SORTIDA:
 
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <limits>
 #include "Gestor.h"
@@ -77,18 +78,61 @@ void reed_file(Gestor &gest)
     }
 }
 
-/*void add_new_song(Gestor &gest)
+void add_new_song(Gestor &gest)
 {
-}*/
+    cout<<"[CANCO"<<endl;
+    int duration, year, rep;
+    string gender, mood, title, artist;
+    cout<<left<<setw(18)<<"Titol:";
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    getline(cin,title);
+    cout<<left<<setw(18)<<"Artista:";
+    getline(cin, artist);
+    cout<<left<<setw(18)<<"Any:";
+    cin >> year;
+    cout<<left<<setw(18)<<"Durada:";
+    cin >> duration;
+    cout<<left<<setw(18)<<"Genere:"; 
+    cin>>gender;
+    cout<<left<<setw(18)<<"Estat d'anim:";
+    cin>>mood;
+    cout<<left<<setw(18)<<"N. reproduccions:";
+    cin>>rep;
+    cout<<"FI CANCO]"<<endl;
+    Song s(gest.table_size(), year, duration, rep, title, artist,gender,mood);
+    gest.add_song_to_array(s);
+}
 
 void write_catalog(const Gestor &gest)
 {
     PointerArray pointer_array(gest);
-    pointer_array.quick_sort("title");
+    pointer_array.order("title");
     for (int i = 0; i < gest.table_size(); i++)
     {
-        cout << "[ # " << i + 1 << " ] ";
-        pointer_array[i].print();
+        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        pointer_array[i].print("title");
+        cout << endl;
+    }
+}
+
+void write_gender(const Gestor &gest)
+{
+    PointerArray pointer_array(gest);
+    pointer_array.order("gender");
+    for (int i = 0; i < gest.table_size(); i++)
+    {
+        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        pointer_array[i].print("gender");
+        cout << endl;
+    }
+}
+
+void escriure(const Gestor &gest)
+{
+    PointerArray p(gest);
+    for (int i = 0; i < gest.table_size(); i++)
+    {
+        p[i].print("title");
         cout << endl;
     }
 }
@@ -100,20 +144,24 @@ void menu(Gestor &gest)
     string funcion = "XXX";
     while (funcion != "sortir")
     {
-        cout << "MTP? " << endl;
+        cout << "MTP? ";
         cin >> funcion;
         if (funcion == "afegir")
         {
-           /*add_new_song(gest);*/
+            add_new_song(gest);
         }
         else if (funcion == "encuar")
         {
+            gest.add_song_to_queue(gest.get_selected());
         }
         else if (funcion == "buidar")
         {
         }
         else if (funcion == "seleccio")
         {
+            cout<<"[CANCO"<<endl;
+            gest[gest.get_selected()].print("selection");
+            cout<<endl<<"FI CANCO]"<<endl;
         }
         else if (funcion == "buidar")
         {
@@ -152,6 +200,7 @@ void menu(Gestor &gest)
             }
             else if (funcion == "genere")
             {
+                write_gender(gest);
             }
             else if (funcion == "pendents")
             {
@@ -163,8 +212,15 @@ void menu(Gestor &gest)
             {
             }
         }
+        else if (funcion == "sortir")
+        {
+        }
+        else
+        {
+            cout << "[Avis] Ordre desconeguda: " << funcion << endl;
+        }
+        cout << EQUAL_LINE << endl;
     }
-    cout << EQUAL_LINE << endl;
 }
 
 int main()

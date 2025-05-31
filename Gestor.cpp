@@ -3,7 +3,7 @@
 Gestor::Gestor()
 {
     this->name = "XXX";
-    this->uid = 0;
+    this->selected = 0;
 }
 
 // ------Funcions per afegir valors a les estructures de dades------
@@ -34,7 +34,7 @@ void Gestor::set_name(string name_file)
 
 void Gestor::set_actual_song(int actual)
 {
-    this->uid = actual;
+    this->selected = actual;
 }
 
 Song &Gestor::operator[](int idx)
@@ -50,4 +50,9 @@ const Song &Gestor::operator[](int idx) const
 int Gestor::table_size() const
 {
     return this->table.size();
+}
+
+int Gestor::get_selected() const
+{
+    return this->selected;
 }

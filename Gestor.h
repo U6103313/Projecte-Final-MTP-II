@@ -32,11 +32,12 @@ public:
     // Post: 
     int table_size() const;
     // Pre:
-    // Post: 
+    // Post:
+    int get_selected() const;
 
 private:
     string name;
-    int uid;
+    int selected;
     DynamicArray table;
     Stack recent;
     Queue pending;

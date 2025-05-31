@@ -31,9 +31,27 @@ Song::Song(int c_uid, int c_year, int c_duration, int c_reproductions, string c_
     this->mood = c_mood;
 }
 
-void Song::print() const
+void Song::print(string tipe) const
 {
-    cout << "[ " << this->title << " | " << this->artist << " | " << this->year << " | " << this->transfom_second(this->duration) << " | " << this->gender << " | " << this->mood << " ]";
+    if (tipe == "title")
+    {
+        cout << "[ " << this->title << " | " << this->artist << " | " << this->year << " | " << this->transfom_second(this->duration) << " | " << this->gender << " | " << this->mood << " ]";
+    }
+    else if (tipe == "gender")
+    {
+        cout << this->gender << setw(5) << "[ " << this->title << " | " << this->artist << " ]";
+    }
+    else if (tipe == "selection")
+    {
+        cout << left << setw(18) << "Titol:"<< this->title << endl;
+        cout << left << setw(18) << "Artista:"<< this->artist << endl;
+        cout << left << setw(18) << "Any:"<< this->year << endl;
+        cout << left << setw(18) << "Durada:"<<this->transfom_second(this->duration) << endl;
+        cout << left << setw(18) << "Genere:"<<this->gender << endl;
+        cout << left << setw(18) << "Estat d'anim:"<<this->mood << endl;
+        cout << left << setw(18) << "N. reproduccions:"<<this->reproductions;
+        
+    }
 }
 
 string Song::transfom_second(int time) const
@@ -59,7 +77,21 @@ bool Song::is_minor(const Song s, string criteria) const
         }
         return false;
     }
-    // For any other criteria, return false as a default case
+    else if (criteria == "gender")
+    {
+        if (this->gender < s.get_gender())
+        {
+            return true;
+        }
+        else if (this->gender == s.get_gender())
+        {
+            return is_minor(s, "title");
+        }
+        else
+        {
+            return false;
+        }
+    }
     return false;
 }
 
@@ -70,4 +102,8 @@ string Song::get_title() const
 string Song::get_artist() const
 {
     return this->artist;
+}
+string Song::get_gender() const
+{
+    return this->gender;
 }

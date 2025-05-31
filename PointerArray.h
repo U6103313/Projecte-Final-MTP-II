@@ -7,7 +7,7 @@ class PointerArray
 public:
     PointerArray();
     PointerArray(Gestor g);
-    void quick_sort(string criteria = "title");
+    void order(string criteria = "title");
     Song &operator[](int inx);
     const Song &operator[](int inx) const;
     ~PointerArray();
@@ -15,8 +15,8 @@ public:
 private:
     Song **pointer_array;
     int size;
-    void i_quick_sort(int left, int right, string criteria);
-    void partition(int left, int right, int &pos_pivot, string criteria);
+    void i_order(int left, int right, string criteria);
+    void part(int left, int right, int &pos_pivot, string criteria);
     void change(Song *&a, Song *&b);
 };
 

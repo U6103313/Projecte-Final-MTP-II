@@ -14,23 +14,23 @@ PointerArray::PointerArray(Gestor g)
     }
 }
 
-void PointerArray::quick_sort(string criteria)
+void PointerArray::order(string criteria)
 {
-    i_quick_sort(0, this->size - 1, criteria);
+    i_order(0, this->size - 1, criteria);
 }
 
-void PointerArray::i_quick_sort(int left, int right, string criteria)
+void PointerArray::i_order(int left, int right, string criteria)
 {
     int k = -1;
     if (left < right)
     {
-        partition(left, right, k, criteria);
-        i_quick_sort(left, k - 1, criteria);
-        i_quick_sort(k + 1, right, criteria);
+        part(left, right, k, criteria);
+        i_order(left, k - 1, criteria);
+        i_order(k + 1, right, criteria);
     }
 }
 
-void PointerArray::partition(int left, int right, int &pos_pivot, string criteria)
+void PointerArray::part(int left, int right, int &pos_pivot, string criteria)
 
 {
     Song *pivot = this->pointer_array[right];
