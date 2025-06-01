@@ -139,11 +139,13 @@ void write_top10(const Gestor &gest)
     }
 }
 
-void write_reproduccion(const int &uid, const Gestor &gest)
+void write_reproduccion(const int &uid, Gestor &gest)
 {
     cout << "Reproduint..." << endl;
     gest[uid].print("title");
     cout << endl;
+    gest[uid].update_reproductions();
+    gest.add_song_to_stack(uid);
 }
 
 void write_pending(const Gestor &gest)
@@ -171,6 +173,34 @@ void write_recents(const Gestor &gest)
         cout << endl;
         recent.unstak();
         i++;
+    }
+}
+
+void seleccion_song(Gestor &gest, string funcion, string key_word)
+{
+    PointerArray selececcion_opt(gest, funcion, key_word);
+    selececcion_opt.order("title");
+    if (selececcion_opt.get_size() == 1)
+    {
+        cout << "Seleccio automatica (un sol resultat)." << endl;
+        gest.set_actual_song(selececcion_opt[0].get_uid());
+    }
+    else if (selececcion_opt.get_size() == 0)
+    {
+        cout << "Cap coincidencia." << endl;
+    }
+    else
+    {
+        for (int i = 0; i < selececcion_opt.get_size(); i++)
+        {
+            cout << "[ #" << setw(2) << i + 1 << " ] ";
+            selececcion_opt[i].print("title");
+            cout << endl;
+        }
+        cout << "Seleccio [ 1.."<< selececcion_opt.get_size()<<" ]? ";
+        int seleccion;
+        cin>> seleccion;
+        gest.set_actual_song(selececcion_opt[seleccion - 1].get_uid());
     }
 }
 
@@ -210,23 +240,28 @@ void menu(Gestor &gest)
         {
             write_reproduccion(gest.copy_queue().first(), gest);
         }
-        else if (funcion == "seleccionar ")
+        else if (funcion == "seleccionar")
         {
             cin >> funcion;
+            string key_word = "XXX";
             if (funcion == "totes")
             {
+                seleccion_song(gest, funcion, key_word);
             }
             else if (funcion == "artista")
             {
-                cin >> funcion;
+                cin >> key_word;
+                seleccion_song(gest, funcion, key_word);
             }
             else if (funcion == "anim")
             {
-                cin >> funcion;
+                cin >> key_word;
+                seleccion_song(gest, funcion, key_word);
             }
             else if (funcion == "titol")
             {
-                cin >> funcion;
+                cin >> key_word;
+                seleccion_song(gest, funcion, key_word);
             }
         }
         else if (funcion == "escriure")

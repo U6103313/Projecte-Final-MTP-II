@@ -6,8 +6,9 @@ class PointerArray
 {
 public:
     PointerArray();
-    PointerArray(const Gestor &g);
+    PointerArray(const Gestor &g, string filtre = "all", string key_word = "XXX");
     void order(string criteria = "title");
+    int get_size() const;
     Song &operator[](int inx);
     const Song &operator[](int inx) const;
     ~PointerArray();

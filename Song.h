@@ -16,6 +16,8 @@ public:
     string get_artist() const;
     string get_gender() const;
     int get_uid() const;
+    string get_mood() const;
+    void update_reproductions();
 
 private:
     string transfom_second(int time) const;

@@ -130,3 +130,13 @@ int Song::get_uid() const
 {
     return this->uid;
 }
+
+string Song::get_mood() const
+{
+    return this->mood;
+}
+
+void Song::update_reproductions()
+{
+    this->reproductions++;
+}
