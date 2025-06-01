@@ -81,26 +81,37 @@ void reed_file(Gestor &gest)
 void add_new_song(Gestor &gest)
 {
     cout << "[CANCO" << endl;
-    int duration, year, rep;
+    int duration, duration_s, duration_m, year;
     string gender, mood, title, artist;
     cout << left << setw(18) << "Titol:";
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(cin, title);
     cout << left << setw(18) << "Artista:";
     getline(cin, artist);
-    cout << left << setw(18) << "Any:";
-    cin >> year;
-    cout << left << setw(18) << "Durada:";
-    cin >> duration;
-    cout << left << setw(18) << "Genere:";
-    cin >> gender;
-    cout << left << setw(18) << "Estat d'anim:";
-    cin >> mood;
-    cout << left << setw(18) << "N. reproduccions:";
-    cin >> rep;
-    cout << "FI CANCO]" << endl;
-    Song s(gest.table_size(), year, duration, rep, title, artist, gender, mood);
-    gest.add_song_to_array(s);
+    PointerArray pointer_array(gest);
+    pointer_array.order("title");
+    if (!pointer_array.exist(title, artist))
+    {
+
+        cout << left << setw(18) << "Any:";
+        cin >> year;
+        cout << left << setw(18) << "Durada [' \"]:";
+        cin >> duration_m >> duration_s;
+        duration = Song::duration_minutes_to_seconds(duration_m, duration_s);
+        cout << left << setw(18) << "Genere:";
+        cin >> gender;
+        cout << left << setw(18) << "Estat d'anim:";
+        cin >> mood;
+        cout << "FI CANCO]" << endl;
+        Song s(gest.table_size(), year, duration, 0, title, artist, gender, mood);
+        gest.add_song_to_array(s);
+        gest.set_actual_song(gest.table_size() - 1);
+    }
+    else
+    {
+        cout <<"[Avis] Aquest tema ja es al cataleg."<<endl;
+        gest.set_actual_song(pointer_array[pointer_array.pos_exist(title, artist)].get_uid());
+    }
 }
 
 void write_catalog(const Gestor &gest)
@@ -109,7 +120,7 @@ void write_catalog(const Gestor &gest)
     pointer_array.order("title");
     for (int i = 0; i < gest.table_size(); i++)
     {
-        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        cout << "[ #" << right << setw(2) << i + 1 << " ] ";
         pointer_array[i].print("title");
         cout << endl;
     }
@@ -121,7 +132,7 @@ void write_gender(const Gestor &gest)
     pointer_array.order("gender");
     for (int i = 0; i < gest.table_size(); i++)
     {
-        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        cout << "[ #" << right << setw(2) << i + 1 << " ] ";
         pointer_array[i].print("gender");
         cout << endl;
     }
@@ -133,7 +144,7 @@ void write_top10(const Gestor &gest)
     pointer_array.order("reproductions");
     for (int i = 0; i < 10; i++)
     {
-        cout << "[ #" << setw(2) << i + 1 << " ] ";
+        cout << "[ #" << right << setw(2) << i + 1 << " ] ";
         pointer_array[i].print("reproductions");
         cout << endl;
     }
@@ -152,6 +163,10 @@ void write_pending(const Gestor &gest)
 {
     Queue pending = gest.copy_queue();
     int i = 1;
+    if (pending.empty())
+    {
+        cout << "Cap coincidencia." << endl;
+    }
     while (!pending.empty())
     {
         cout << "[ #" << setw(2) << i << " ] ";
@@ -166,9 +181,13 @@ void write_recents(const Gestor &gest)
 {
     Stack recent = gest.copy_recent();
     int i = 1;
+    if (recent.empty())
+    {
+        cout << "Cap coincidencia." << endl;
+    }
     while (!recent.empty())
     {
-        cout << "[ #" << setw(2) << i << " ] ";
+        cout << "[ #" << right << setw(2) << i << " ] ";
         gest[recent.top()].print("title");
         cout << endl;
         recent.unstak();
@@ -193,13 +212,13 @@ void seleccion_song(Gestor &gest, string funcion, string key_word)
     {
         for (int i = 0; i < selececcion_opt.get_size(); i++)
         {
-            cout << "[ #" << setw(2) << i + 1 << " ] ";
+            cout << "[ #" << right << setw(2) << i + 1 << " ] ";
             selececcion_opt[i].print("title");
             cout << endl;
         }
-        cout << "Seleccio [ 1.."<< selececcion_opt.get_size()<<" ]? ";
+        cout << "Seleccio [ 1.." << selececcion_opt.get_size() << " ]? ";
         int seleccion;
-        cin>> seleccion;
+        cin >> seleccion;
         gest.set_actual_song(selececcion_opt[seleccion - 1].get_uid());
     }
 }
@@ -227,10 +246,12 @@ void menu(Gestor &gest)
         }
         else if (funcion == "seleccio")
         {
+            cout << STICK_LINE << endl;
             cout << "[CANCO" << endl;
             gest[gest.get_selected()].print("selection");
             cout << endl
                  << "FI CANCO]" << endl;
+            cout << STICK_LINE << endl;
         }
         else if (funcion == "repseleccio")
         {
@@ -238,7 +259,14 @@ void menu(Gestor &gest)
         }
         else if (funcion == "repcua")
         {
-            write_reproduccion(gest.copy_queue().first(), gest);
+            if (gest.copy_queue().empty())
+            {
+                cout << "[Avis] Res a reproduir." << endl;
+            }
+            else
+            {
+                write_reproduccion(gest.copy_queue().first(), gest);
+            }
         }
         else if (funcion == "seleccionar")
         {
@@ -267,6 +295,7 @@ void menu(Gestor &gest)
         else if (funcion == "escriure")
         {
             cin >> funcion;
+            cout << EQUAL_LINE << endl;
             if (funcion == "cataleg")
             {
                 write_catalog(gest);
@@ -287,6 +316,11 @@ void menu(Gestor &gest)
             {
                 write_top10(gest);
             }
+            else
+            {
+                cout << "[Avis] Subordre desconeguda: " << funcion << endl;
+            }
+            cout << EQUAL_LINE << endl;
         }
         else if (funcion == "sortir")
         {
@@ -295,7 +329,6 @@ void menu(Gestor &gest)
         {
             cout << "[Avis] Ordre desconeguda: " << funcion << endl;
         }
-        cout << EQUAL_LINE << endl;
     }
 }
 

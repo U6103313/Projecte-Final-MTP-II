@@ -18,6 +18,7 @@ public:
     int get_uid() const;
     string get_mood() const;
     void update_reproductions();
+    static int duration_minutes_to_seconds(int minutes, int seconds=0);
 
 private:
     string transfom_second(int time) const;

@@ -11,6 +11,9 @@ public:
     int get_size() const;
     Song &operator[](int inx);
     const Song &operator[](int inx) const;
+    PointerArray &operator=(const PointerArray &t);
+    bool exist (string title, string artist) const;
+    int pos_exist (string title, string artist) const;
     ~PointerArray();
 
 private:
@@ -21,6 +24,8 @@ private:
     void part(int left, int right, int &pos_pivot, string criteria);
     void change(int &a, int &b);
     bool compare(int a, int b, string criteria);
+    void free();
+    void copi(const PointerArray &t);
 };
 
 #endif

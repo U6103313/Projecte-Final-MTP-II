@@ -19,7 +19,7 @@ PointerArray::PointerArray(const Gestor &g, string filtre, string key_word)
         }
         else
         {
-            string word="XXX";
+            string word = "XXX";
             if (filtre == "artista")
             {
                 word = gest[i].get_artist();
@@ -41,7 +41,6 @@ PointerArray::PointerArray(const Gestor &g, string filtre, string key_word)
     }
     size = pos;
 }
-
 
 void PointerArray::order(string criteria)
 {
@@ -103,4 +102,75 @@ const Song &PointerArray::operator[](int inx) const
 
 PointerArray::~PointerArray()
 {
+    free();
+}
+
+void PointerArray::free()
+{
+    delete[] index_array;
+    index_array = NULL;
+}
+
+void PointerArray::copi(const PointerArray &t)
+{
+    size = t.size;
+    index_array = new int[size];
+    for (int i = 0; i < size; i++)
+        index_array[i] = t.index_array[i];
+}
+
+PointerArray &PointerArray::operator=(const PointerArray &t)
+{
+    if (this != &t)
+    {
+        free();
+        copi(t);
+    }
+    return *this;
+}
+
+bool PointerArray::exist(string title, string artist) const
+{
+    int left = 0;
+    int right = this->size - 1;
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (gest[index_array[mid]].get_title() == title && gest[index_array[mid]].get_artist() == artist)
+        {
+            return true;
+        }
+        else if (gest[index_array[mid]].get_title() < title || (gest[index_array[mid]].get_title() == title && gest[index_array[mid]].get_artist() < artist))
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid - 1;
+        }
+    }
+    return false;
+} 
+
+int PointerArray::pos_exist(string title, string artist) const
+{
+    int left = 0;
+    int right = this->size - 1;
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (gest[index_array[mid]].get_title() == title && gest[index_array[mid]].get_artist() == artist)
+        {
+            return mid;
+        }
+        else if (gest[index_array[mid]].get_title() < title || (gest[index_array[mid]].get_title() == title && gest[index_array[mid]].get_artist() < artist))
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid - 1;
+        }
+    }
+    return -1; // Not found
 }

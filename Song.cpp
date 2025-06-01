@@ -140,3 +140,8 @@ void Song::update_reproductions()
 {
     this->reproductions++;
 }
+
+int Song::duration_minutes_to_seconds(int minutes, int seconds)
+{
+    return minutes * 60 + seconds;
+}
