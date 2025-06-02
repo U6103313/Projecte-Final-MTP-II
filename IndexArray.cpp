@@ -1,10 +1,10 @@
-#include "PointerArray.h"
+#include "IndexArray.h"
 
-PointerArray::PointerArray()
+IndexArray::IndexArray()
 {
 }
 
-PointerArray::PointerArray(const Gestor &g, string filtre, string key_word)
+IndexArray::IndexArray(const Gestor &g, string filtre, string key_word)
 {
     this->size = g.table_size();
     this->gest = g;
@@ -42,12 +42,12 @@ PointerArray::PointerArray(const Gestor &g, string filtre, string key_word)
     size = pos;
 }
 
-void PointerArray::order(string criteria)
+void IndexArray::order(string criteria)
 {
     i_order(0, this->size - 1, criteria);
 }
 
-void PointerArray::i_order(int left, int right, string criteria)
+void IndexArray::i_order(int left, int right, string criteria)
 {
     int k = -1;
     if (left < right)
@@ -58,7 +58,7 @@ void PointerArray::i_order(int left, int right, string criteria)
     }
 }
 
-void PointerArray::part(int left, int right, int &pos_pivot, string criteria)
+void IndexArray::part(int left, int right, int &pos_pivot, string criteria)
 {
     int pivot = this->index_array[right];
     pos_pivot = left;
@@ -73,45 +73,45 @@ void PointerArray::part(int left, int right, int &pos_pivot, string criteria)
     change(index_array[right], index_array[pos_pivot]);
 }
 
-bool PointerArray::compare(int a, int b, string criteria)
+bool IndexArray::compare(int a, int b, string criteria)
 {
     return gest[a].is_minor(gest[b], criteria);
 }
 
-void PointerArray::change(int &a, int &b)
+void IndexArray::change(int &a, int &b)
 {
     int temp = a;
     a = b;
     b = temp;
 }
 
-int PointerArray::get_size() const
+int IndexArray::get_size() const
 {
     return this->size;
 }
 
-Song &PointerArray::operator[](int inx)
+Song &IndexArray::operator[](int inx)
 {
     return gest[index_array[inx]];
 }
 
-const Song &PointerArray::operator[](int inx) const
+const Song &IndexArray::operator[](int inx) const
 {
     return gest[index_array[inx]];
 }
 
-PointerArray::~PointerArray()
+IndexArray::~IndexArray()
 {
     free();
 }
 
-void PointerArray::free()
+void IndexArray::free()
 {
     delete[] index_array;
     index_array = NULL;
 }
 
-void PointerArray::copi(const PointerArray &t)
+void IndexArray::copi(const IndexArray &t)
 {
     size = t.size;
     index_array = new int[size];
@@ -119,7 +119,7 @@ void PointerArray::copi(const PointerArray &t)
         index_array[i] = t.index_array[i];
 }
 
-PointerArray &PointerArray::operator=(const PointerArray &t)
+IndexArray &IndexArray::operator=(const IndexArray &t)
 {
     if (this != &t)
     {
@@ -129,7 +129,7 @@ PointerArray &PointerArray::operator=(const PointerArray &t)
     return *this;
 }
 
-bool PointerArray::exist(string title, string artist) const
+bool IndexArray::exist(string title, string artist) const
 {
     int left = 0;
     int right = this->size - 1;
@@ -150,9 +150,9 @@ bool PointerArray::exist(string title, string artist) const
         }
     }
     return false;
-} 
+}
 
-int PointerArray::pos_exist(string title, string artist) const
+int IndexArray::pos_exist(string title, string artist) const
 {
     int left = 0;
     int right = this->size - 1;

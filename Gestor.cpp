@@ -6,7 +6,6 @@ Gestor::Gestor()
     this->selected = 0;
 }
 
-// ------Funcions per afegir valors a les estructures de dades------
 void Gestor::add_song_to_array(Song s)
 {
     this->table.add(s);
@@ -22,11 +21,6 @@ void Gestor::add_song_to_stack(int code_song)
     this->recent.tostak(code_song);
 }
 
-Gestor::~Gestor()
-{
-}
-
-//--- Funcions per definir valors a les variable -----
 void Gestor::set_name(string name_file)
 {
     this->name = name_file;
@@ -74,4 +68,9 @@ Stack Gestor::copy_recent() const
 {
     Stack copy = this->recent;
     return copy;
+}
+
+void Gestor::delete_firs_element_queue()
+{
+    this->pending.outqueue();
 }

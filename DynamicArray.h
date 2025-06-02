@@ -12,7 +12,7 @@ private:
 
   int m_max;   // Capacitat màxima (memòria reservada)
   int m;       // Mida ocupada
-  Song *taula; // Taula en memòria dinàmica
+  Song *table; // Taula en memòria dinàmica
 
   void free();
   // Pre: cert

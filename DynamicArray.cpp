@@ -6,14 +6,14 @@ DynamicArray::DynamicArray()
 {
     this->m = 0;
     this->m_max = 10;
-    this->taula = new Song[this->m_max];
+    this->table = new Song[this->m_max];
 }
 
 DynamicArray::DynamicArray(int n_punts)
 {
     this->m = 0;
     this->m_max = n_punts;
-    this->taula = new Song[this->m_max];
+    this->table = new Song[this->m_max];
 }
 
 DynamicArray::DynamicArray(const DynamicArray &t)
@@ -23,8 +23,8 @@ DynamicArray::DynamicArray(const DynamicArray &t)
 
 void DynamicArray::free()
 {
-    delete[] taula;
-    taula = NULL;
+    delete[] table;
+    table = NULL;
 }
 
 void DynamicArray::copi(const DynamicArray &t)
@@ -33,30 +33,30 @@ void DynamicArray::copi(const DynamicArray &t)
     m_max = t.m_max;
     reserve();
     for (int i = 0; i < m; i++)
-        taula[i] = t.taula[i];
+        table[i] = t.table[i];
 }
 
 void DynamicArray::reserve()
 {
-    this->taula = new Song[m_max];
+    this->table = new Song[m_max];
 }
 
 void DynamicArray::expand()
 {
-    Song *aux = this->taula;
+    Song *aux = this->table;
     if (m == 0)
     {
-        this->taula = new Song[1];
+        this->table = new Song[1];
         m_max=1;
     }
     else
     {
-        this->taula = new Song[2 * m_max];
+        this->table = new Song[2 * m_max];
         m_max*=2;
     }
     for (int i = 0; i < m; i++)
     {
-        this->taula[i] = aux[i];
+        this->table[i] = aux[i];
     }
     delete []aux;
 }
@@ -81,7 +81,7 @@ void DynamicArray::add(const Song &p)
     if(m==m_max){
         expand();
     }
-    this->taula[this->m]=p;
+    this->table[this->m]=p;
     m++;
 }
 
@@ -92,12 +92,12 @@ DynamicArray::~DynamicArray()
 
 Song &DynamicArray::operator[](int idx)
 {
-    return taula[idx];
+    return table[idx];
 }
 
 const Song &DynamicArray::operator[](int idx) const
 {
-    return taula[idx];
+    return table[idx];
 }
 
 DynamicArray &DynamicArray::operator=(const DynamicArray &t)

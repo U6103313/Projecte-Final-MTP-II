@@ -1,12 +1,12 @@
-// ENTRADA:
-// SORTIDA:
+// ENTRADA: L'usuari el nom d'un cataleg i les funcions que vol realitzar sobre aquest catàleg.
+// SORTIDA: El programa llegeix el catàleg, i permet a l'usuari afegir cançons, reproduir-les, veure les recents, pendents, etc.
 
 #include <iostream>
 #include <iomanip>
 #include <fstream>
 #include <limits>
 #include "Gestor.h"
-#include "PointerArray.h"
+#include "IndexArray.h"
 using namespace std;
 
 const string STICK_LINE = string(70, '-');
@@ -14,7 +14,7 @@ const string EQUAL_LINE = string(70, '=');
 
 void reed_file(Gestor &gest)
 // Pre: --
-// Post:
+// Post: La taula de cançons, la pila de recents i la cua de pendents estan omplertes
 {
     cout << "Nom del fitxer de cataleg: ";
     string name_file;
@@ -57,12 +57,17 @@ void reed_file(Gestor &gest)
         f_in >> a;
         int n_recent;
         f_in >> n_recent;
+        int recent_table[n_recent];
         for (int i = 0; i < n_recent; i++)
         {
             int uid;
             f_in >> uid;
             uid--;
-            gest.add_song_to_stack(uid);
+            recent_table[i] = uid;
+        }
+        for (int i = n_recent - 1; i >= 0; i--)
+        {
+            gest.add_song_to_stack(recent_table[i]);
         }
         f_in >> a;
         int n_pending;
@@ -79,78 +84,91 @@ void reed_file(Gestor &gest)
 }
 
 void add_new_song(Gestor &gest)
+// Pre: El gestor esta creat
+// Post: S'ha afegit una nova cançó al gestor
 {
-    cout << "[CANCO" << endl;
     int duration, duration_s, duration_m, year;
     string gender, mood, title, artist;
-    cout << left << setw(18) << "Titol:";
+    cout << "Titol: ";
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     getline(cin, title);
-    cout << left << setw(18) << "Artista:";
+    cout << "Artista: ";
     getline(cin, artist);
-    PointerArray pointer_array(gest);
-    pointer_array.order("title");
-    if (!pointer_array.exist(title, artist))
+    IndexArray index_array(gest);
+    index_array.order("title");
+    if (!index_array.exist(title, artist))
     {
-
-        cout << left << setw(18) << "Any:";
+        cout << "Any: ";
         cin >> year;
-        cout << left << setw(18) << "Durada [' \"]:";
+        cout << "Durada [' \"]: ";
         cin >> duration_m >> duration_s;
         duration = Song::duration_minutes_to_seconds(duration_m, duration_s);
-        cout << left << setw(18) << "Genere:";
+        cout << "Genere: ";
         cin >> gender;
-        cout << left << setw(18) << "Estat d'anim:";
+        cout << "Estat d'anim: ";
         cin >> mood;
-        cout << "FI CANCO]" << endl;
         Song s(gest.table_size(), year, duration, 0, title, artist, gender, mood);
         gest.add_song_to_array(s);
         gest.set_actual_song(gest.table_size() - 1);
     }
     else
     {
-        cout <<"[Avis] Aquest tema ja es al cataleg."<<endl;
-        gest.set_actual_song(pointer_array[pointer_array.pos_exist(title, artist)].get_uid());
+        cout << "[Avis] Aquest tema ja es al cataleg." << endl;
+        gest.set_actual_song(index_array[index_array.pos_exist(title, artist)].get_uid());
     }
 }
 
 void write_catalog(const Gestor &gest)
+// Pre: gest taula de cançons omplerta
+// Post: S'escriu el catàleg de cançons ordenat per títol
 {
-    PointerArray pointer_array(gest);
-    pointer_array.order("title");
+    cout << EQUAL_LINE << endl;
+    IndexArray index_array(gest);
+    index_array.order("title");
     for (int i = 0; i < gest.table_size(); i++)
     {
         cout << "[ #" << right << setw(2) << i + 1 << " ] ";
-        pointer_array[i].print("title");
+        index_array[i].print("title");
         cout << endl;
     }
+    cout << EQUAL_LINE << endl;
 }
 
 void write_gender(const Gestor &gest)
+// Pre: gest taula de cançons omplerta
+// Post: S'escriu el catàleg de cançons ordenat per gènere
 {
-    PointerArray pointer_array(gest);
-    pointer_array.order("gender");
+    cout << EQUAL_LINE << endl;
+    IndexArray index_array(gest);
+    index_array.order("gender");
     for (int i = 0; i < gest.table_size(); i++)
     {
         cout << "[ #" << right << setw(2) << i + 1 << " ] ";
-        pointer_array[i].print("gender");
+        index_array[i].print("gender");
         cout << endl;
     }
+    cout << EQUAL_LINE << endl;
 }
 
 void write_top10(const Gestor &gest)
+// Pre: gest taula de cançons omplerta
+// Post: S'escriu el top 10 de cançons ordenat per reproduccions
 {
-    PointerArray pointer_array(gest);
-    pointer_array.order("reproductions");
+    cout << EQUAL_LINE << endl;
+    IndexArray index_array(gest);
+    index_array.order("reproductions");
     for (int i = 0; i < 10; i++)
     {
         cout << "[ #" << right << setw(2) << i + 1 << " ] ";
-        pointer_array[i].print("reproductions");
+        index_array[i].print("reproductions");
         cout << endl;
     }
+    cout << EQUAL_LINE << endl;
 }
 
 void write_reproduccion(const int &uid, Gestor &gest)
+// Pre: uid es un identificador de cançó valid i gest taula de cançons omplerta
+// Post: S'escriu la cançó seleccionada i s'actualitzen les reproduccions
 {
     cout << "Reproduint..." << endl;
     gest[uid].print("title");
@@ -160,7 +178,10 @@ void write_reproduccion(const int &uid, Gestor &gest)
 }
 
 void write_pending(const Gestor &gest)
+// Pre: gest taula de cançons omplerta i cua de pendents omplerta
+// Post: S'escriu la cua de cançons pendents
 {
+    cout << EQUAL_LINE << endl;
     Queue pending = gest.copy_queue();
     int i = 1;
     if (pending.empty())
@@ -169,16 +190,20 @@ void write_pending(const Gestor &gest)
     }
     while (!pending.empty())
     {
-        cout << "[ #" << setw(2) << i << " ] ";
-        gest[pending.first()].print("title");
+        cout << "[ #" << right << setw(2) << i << " ] ";
+        gest[pending.first()]   .print("title");
         cout << endl;
         pending.outqueue();
         i++;
     }
+    cout << EQUAL_LINE << endl;
 }
 
 void write_recents(const Gestor &gest)
+// Pre: gest taula de cançons omplerta i pila de recents omplerta
+// Post: S'escriu la pila de cançons recents
 {
+    cout << EQUAL_LINE << endl;
     Stack recent = gest.copy_recent();
     int i = 1;
     if (recent.empty())
@@ -193,11 +218,14 @@ void write_recents(const Gestor &gest)
         recent.unstak();
         i++;
     }
+    cout << EQUAL_LINE << endl;
 }
 
 void seleccion_song(Gestor &gest, string funcion, string key_word)
+// Pre: gest taula de cançons omplerta, funcion es una de les següents: "totes", "artista", "anim", "titol" , key_word es una cadena de text per fer de filtre
+// Post: S'ha fet una selecció de cançons segons la funció i la paraula clau, i s'ha actualitzat la cançó seleccionada al gestor
 {
-    PointerArray selececcion_opt(gest, funcion, key_word);
+    IndexArray selececcion_opt(gest, funcion, key_word);
     selececcion_opt.order("title");
     if (selececcion_opt.get_size() == 1)
     {
@@ -225,7 +253,7 @@ void seleccion_song(Gestor &gest, string funcion, string key_word)
 
 void menu(Gestor &gest)
 // Pre: El fitxer esta llegit i la pila, cua i taula estan omplertes
-// Post:
+// Post: S'ha mostrat el menú i s'han executat les ordres introduïdes per l'usuari fins que es selecciona "sortir"
 {
     string funcion = "XXX";
     while (funcion != "sortir")
@@ -266,6 +294,7 @@ void menu(Gestor &gest)
             else
             {
                 write_reproduccion(gest.copy_queue().first(), gest);
+                gest.delete_firs_element_queue();
             }
         }
         else if (funcion == "seleccionar")
@@ -295,7 +324,6 @@ void menu(Gestor &gest)
         else if (funcion == "escriure")
         {
             cin >> funcion;
-            cout << EQUAL_LINE << endl;
             if (funcion == "cataleg")
             {
                 write_catalog(gest);
@@ -320,7 +348,6 @@ void menu(Gestor &gest)
             {
                 cout << "[Avis] Subordre desconeguda: " << funcion << endl;
             }
-            cout << EQUAL_LINE << endl;
         }
         else if (funcion == "sortir")
         {

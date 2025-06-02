@@ -14,11 +14,6 @@ Song::Song()
     this->mood = "XXX";
 }
 
-Song::~Song()
-{
-    // Empty destructor - no dynamic memory to clean up
-}
-
 Song::Song(int c_uid, int c_year, int c_duration, int c_reproductions, string c_title, string c_artist, string c_gender, string c_mood)
 {
     this->duration = c_duration;
@@ -39,21 +34,21 @@ void Song::print(string tipe) const
     }
     else if (tipe == "gender")
     {
-        cout <<left<<setw(9)<< this->gender << "[ " << this->title << " | " << this->artist << " ]";
+        cout << left << setw(8) << this->gender << "[ " << this->title << " | " << this->artist << " ]";
     }
     else if (tipe == "selection")
     {
         cout << left << setw(18) << "Titol:" << this->title << endl;
         cout << left << setw(18) << "Artista:" << this->artist << endl;
         cout << left << setw(18) << "Any:" << this->year << endl;
-        cout << left << setw(18) << "Durada:" << this->transfom_second(this->duration) << endl;
+        cout << left << setw(18) << "Durada" << this->transfom_second(this->duration) << endl;
         cout << left << setw(18) << "Genere:" << this->gender << endl;
         cout << left << setw(18) << "Estat d'anim:" << this->mood << endl;
         cout << left << setw(18) << "N. reproduccions:" << this->reproductions;
     }
     else if (tipe == "reproductions")
     {
-        cout<<this->reproductions<<" [ "<<this->title<<" | "<<this->artist<<" ]";
+        cout << this->reproductions << " [ " << this->title << " | " << this->artist << " ]";
     }
 }
 
@@ -63,7 +58,7 @@ string Song::transfom_second(int time) const
     int sec = time % 60;
     string min_str = to_string(min);
     string sec_str = to_string(sec);
-    return min_str + "' " + sec_str + "''";
+    return min_str + "' " + sec_str + "\"";
 }
 
 bool Song::is_minor(const Song s, string criteria) const
